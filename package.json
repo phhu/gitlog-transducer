@@ -1,0 +1,23 @@
+{
+  "name": "gitlogtransducer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "elasticsearch": "^16.7.1",
+    "elasticsearch-streams": "0.0.10",
+    "map2": "^1.0.2",
+    "parse-diff": "git+https://github.com/phhu/parse-diff.git",
+    "parse-git-numstat": "git+https://github.com/phhu/parse-git-numstat.git",
+    "ramda": "^0.27.0",
+    "split2": "^3.1.1",
+    "through2-map": "^3.0.0",
+    "transduce": "^0.10.2",
+    "transduce-stream": "^0.5.0"
+  }
+}

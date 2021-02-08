@@ -1,0 +1,1 @@
+git log --parents --decorate --numstat --all | node gitLogNumStatToCommitLog.js
